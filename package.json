@@ -1,0 +1,21 @@
+{
+  "name": "better-dark",
+  "displayName": "Better dark",
+  "description": "The best dark extension you've been looking for",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Better dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Better dark-color-theme.json"
+      }
+    ]
+  }
+}
